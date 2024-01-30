@@ -1,11 +1,11 @@
 <div class="container-fluid">
     <div class="news-container">
         @for (story of topStories; track story.id) {
-            <h3>{{story.title}}</h3>
-            <h5>{{story.type}}</h5>
-            <p>{{story.text}}</p>
-            <p>{{story.by}}</p>
-            <button type="button">Read more</button>
+            <div class="story-box">
+                <h3 style="color: white;">{{story.title}}</h3>
+                <p style="color: rgb(198, 198, 198);">{{story.time}}</p>
+                <a href="{{story.url}}" target="_blank"><button>Read</button></a>
+            </div>
         }
     </div>
 </div>

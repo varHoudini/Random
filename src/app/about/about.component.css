@@ -1,3 +1,44 @@
+.container-fluid {
+    padding: 20px;
+    background-color: rgb(21, 14, 43);
+}
 .news-container {
-    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.news-container a {
+    text-decoration: none;
+    color: white;
+    width: 100px;
+}
+
+.news-container a button {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.news-container a button:hover {
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 3px #007bff;
+}
+
+.story-box {
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 453px; 
+    transition: .3s ease-in-out;
+}
+
+.story-box:hover {
+    border: 2px solid #007bff;
+    box-shadow: 0 0 10px 6px #007bff;
 }

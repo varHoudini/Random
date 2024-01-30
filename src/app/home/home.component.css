@@ -68,12 +68,14 @@ button {
     border: 2px solid rgb(255, 255, 255);
     padding: 10px;
     cursor: pointer;
-    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+    transition: .3s ease-in-out;
+    cursor: pointer;
 }
 
 button:hover {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 3px #007bff;
 }
 
 /* Right side of the home component */
