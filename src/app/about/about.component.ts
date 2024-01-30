@@ -22,7 +22,7 @@ export class AboutComponent implements OnInit {
         console.log(data);
         if (data && data.length > 0) {
 
-          const topStoryIds = data.slice(0, 10);
+          const topStoryIds = data.slice(0, 12);
           this.fetchStoryDetails(topStoryIds);
         }
       })
